@@ -43,3 +43,4 @@ out/*
 enc_temp_folder
 .DS_Store
 Testing
+vcpkg
