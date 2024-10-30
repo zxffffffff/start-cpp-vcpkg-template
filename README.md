@@ -2,7 +2,7 @@
 
 ![workflow](https://github.com/zxffffffff/start-cpp-vcpkg-template/actions/workflows/cmake-multi-platform.yml/badge.svg?event=push)
 
-更多信息: <https://github.com/zxffffffff/start-cpp-vcpkg>
+更多信息: [start-cpp-vcpkg](https://github.com/zxffffffff/start-cpp-vcpkg)
 
 ## 温馨提示
 
