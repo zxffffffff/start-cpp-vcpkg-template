@@ -1,6 +1,8 @@
 # start-cpp-vcpkg-template
 
-![workflow](https://github.com/zxffffffff/start-cpp-vcpkg-template/actions/workflows/cmake-multi-platform.yml/badge.svg?event=push)
+![workflow](https://github.com/zxffffffff/start-cpp-vcpkg-template/actions/workflows/build-windows.yml/badge.svg?event=push)
+![workflow](https://github.com/zxffffffff/start-cpp-vcpkg-template/actions/workflows/build-macos.yml/badge.svg?event=push)
+![workflow](https://github.com/zxffffffff/start-cpp-vcpkg-template/actions/workflows/build-ubuntu.yml/badge.svg?event=push)
 
 更多信息: [start-cpp-vcpkg](https://github.com/zxffffffff/start-cpp-vcpkg)
 
