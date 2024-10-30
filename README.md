@@ -2,6 +2,8 @@
 
 ![workflow](https://github.com/zxffffffff/start-cpp-vcpkg-template/actions/workflows/cmake-multi-platform.yml/badge.svg?event=push)
 
+更多信息: <https://github.com/zxffffffff/start-cpp-vcpkg>
+
 ## 温馨提示
 
 - 可以使用环境变量 VCPKG_ROOT、VCPKG_DOWNLOADS 指定安装、下载目录，也可以每个项目自带一个 vcpkg 子模块
