@@ -29,6 +29,16 @@
 - 跨平台项目建议使用 UTF-8 编码格式，这样仅需设置 Windows 编译环境 (Windows 中文系统默认使用 GBK 编码)
 - 跨平台项目建议使用 `.gitattributes` 确保提交时转换为 `LF`
 
+### CMake CXX_STANDARD 版本参考
+
+| Added in version  | C++ Standard    |
+| ----------------- | --------------- |
+| 3.1               | C++ 98, 11, 14  |
+| 3.8               | C++ 17          |
+| 3.12              | C++ 20          |
+| 3.20              | C++ 23          |
+| 3.25              | C++ 26          |
+
 ### Windows MSVC 参考
 
 | CMake version         | MSVC version    |
