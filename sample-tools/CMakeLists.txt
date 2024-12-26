@@ -36,6 +36,7 @@ find_package(fmt CONFIG REQUIRED)
 # Public 头文件
 file(GLOB_RECURSE include_headers
     cpp_version.h
+    cpp_def.h
     common.h
     platform.h
     hardware.h
@@ -62,12 +63,12 @@ target_link_libraries(${PROJECT_NAME}
     PUBLIC fmt::fmt-header-only
 )
 
-if (APPLE)
-# hardware 依赖系统库
-target_link_libraries(${PROJECT_NAME}
-    PUBLIC "-framework CoreFoundation"
-    PUBLIC "-framework IOKit"
-)
+if(APPLE)
+    # hardware 依赖系统库
+    target_link_libraries(${PROJECT_NAME}
+        PUBLIC "-framework CoreFoundation"
+        PUBLIC "-framework IOKit"
+    )
 endif()
 
 target_include_directories(${PROJECT_NAME}
