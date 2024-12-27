@@ -97,21 +97,27 @@
 "builtin-baseline": "b051745c68faa6f65c493371d564c4eb8af34dad"
 ```
 
-# Vcpkg
+## Vcpkg
 
 - 安装 `vcpkg` 工具 (参考本工程 `.gitmodules`)
 - 手动引入建议使用 `git submodule add -f https://github.com/microsoft/vcpkg.git vcpkg`
 - 初始化、拉取更新可以使用 `git submodule update --init --recursive`
 
-## 参考
+### 参考
 
 - <https://github.com/microsoft/vcpkg>
 - <https://github.com/microsoft/vcpkg/blob/master/README_zh_CN.md>
 
-## 查询 & 添加 & 查看
+### 查询 & 添加 & 查看
 
 ```Bash
 .\vcpkg\vcpkg.exe search xxx
 .\vcpkg\vcpkg.exe install xxx` or `vcpkg.json
 .\vcpkg\packages\xxx\CONTROL
 ```
+
+## License
+
+选择合适的开源协议，例如 `MIT License`
+
+![image](https://github.com/zxffffffff/start-cpp-vcpkg-template/blob/main/docs/choose-a-license.png)
